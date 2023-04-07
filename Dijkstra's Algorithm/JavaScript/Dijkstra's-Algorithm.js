@@ -55,4 +55,3 @@ const graph = [
 ];
 
 dijkstra(graph, 0);
-

@@ -68,4 +68,3 @@ func main() {
 
     dijkstra(graph, 0)
 }
-
