@@ -64,4 +64,3 @@ public class DijkstraAlgorithm {
         dijkstra(graph, 0);
     }
 }
-

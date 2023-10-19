@@ -12,6 +12,7 @@ int min_distance(const std::vector<int>& dist, const std::vector<bool>& spt_set)
             min_index = v;
         }
     }
+
     return min_index;    
 
 }
