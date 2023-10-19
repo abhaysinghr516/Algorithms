@@ -12,9 +12,10 @@ int min_distance(const std::vector<int>& dist, const std::vector<bool>& spt_set)
             min_index = v;
         }
     }
-    return min_index;
-    }
 
+    return min_index;    
+
+}
 
 void print_solution(const std::vector<int>& dist) {
     std::cout << "Vertex \t Distance from Source\n";
