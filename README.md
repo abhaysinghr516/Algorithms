@@ -23,7 +23,7 @@ This repository contains a collection of various algorithms implemented in C, C+
 - Quickselect Algorithm
 - Quicksort Algorithm
 - Selection Sort Algorithm
-- Topological Sort Algorithm
+- TopologicalSortAlgorithm
 - Union Find Algorithm
 ## Contributing
 Please check the [CONTRIBUTING.md](https://github.com/abhaysinghr516/Algorithms/blob/main/CONTRIBUTING.md) file for guidelines on how to contribute to this repository.

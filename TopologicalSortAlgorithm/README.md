@@ -1,4 +1,4 @@
-# Topological Sort Algorithm
+# TopologicalSortAlgorithm
 
 Topological Sort is a linear ordering of the vertices of a directed acyclic graph (DAG) such that for every directed edge uv from vertex u to vertex v, u comes before v in the ordering. It is commonly used in scheduling tasks with dependencies or resolving the order of compilation for a set of files with dependencies.
 
