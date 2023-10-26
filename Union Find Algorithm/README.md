@@ -15,3 +15,5 @@ O(n)
 ## Example Use Case
 
 Managing connected components in a graph, such as implementing Kruskal's algorithm for finding the minimum spanning tree or detecting cycles in an undirected graph.
+
+![image](https://github.com/OsauravO/Algorithms/assets/123803605/28479e35-5224-463d-b2f5-636939c14a50)
