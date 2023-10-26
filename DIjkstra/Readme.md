@@ -1,0 +1,8 @@
+# DIJKSTRA ALGORITHM:
+USED TO FIND  THE DISTANCE AND PATH IN BETWEEN THE NODES.
+### TIME COMPLEXITY:
+O(numnode^2)
+### SPACE COMPLEXITY:
+O(numnode)
+### EXAMPLE USE CASE:
+To find the shortest path to travel.
