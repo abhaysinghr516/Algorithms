@@ -1,0 +1,531 @@
+[
+  {
+    "name": "Bellman-Ford Algorithm",
+    "slug": "bellman-ford-algorithm",
+    "description": "Bellman-Ford Algorithm",
+    "languages": {
+      ".rs": [
+        "../Bellman-Ford Algorithm/Rust/Bellman-ford.rs"
+      ],
+      ".py": [
+        "../Bellman-Ford Algorithm/Python/Bellman-Ford-Algorithm.py"
+      ],
+      ".js": [
+        "../Bellman-Ford Algorithm/JavaScript/Bellman-Ford-Algorithm.js"
+      ],
+      ".java": [
+        "../Bellman-Ford Algorithm/Java/Bellman-Ford-Algorithm.java"
+      ],
+      ".go": [
+        "../Bellman-Ford Algorithm/Go/Bellman-Ford-Algorithm.go"
+      ],
+      ".cpp": [
+        "../Bellman-Ford Algorithm/C++/Bellman-Ford-Algorithm.cpp"
+      ],
+      ".c": [
+        "../Bellman-Ford Algorithm/C/Bellman-Ford-Algorithm.c"
+      ]
+    }
+  },
+  {
+    "name": "Binary Search Algorithm",
+    "slug": "binary-search-algorithm",
+    "description": "Binary Search Algorithm",
+    "languages": {
+      ".rs": [
+        "../Binary Search Algorithm/Rust/Binary_Search_Algorithm.rs",
+        "../Binary Search Algorithm/Rust/Binary_search.rs"
+      ],
+      ".py": [
+        "../Binary Search Algorithm/Python/Binary-Search-Algorithm.py"
+      ],
+      ".js": [
+        "../Binary Search Algorithm/JavaScript/Binary-Search-Algorithm.js"
+      ],
+      ".java": [
+        "../Binary Search Algorithm/Java/Binary-Search-Algorithm.java"
+      ],
+      ".go": [
+        "../Binary Search Algorithm/Go/Binary-Search-Algorithm.go"
+      ],
+      ".cpp": [
+        "../Binary Search Algorithm/C++/Binary-Search-Algorithm.cpp"
+      ],
+      ".c": [
+        "../Binary Search Algorithm/C/Binary-Search-Algorithm.c"
+      ]
+    }
+  },
+  {
+    "name": "Boyer-Moore Majority Vote Algorithm",
+    "slug": "boyer-moore-majority-vote-algorithm",
+    "description": "Boyer-Moore Majority Vote Algorithm",
+    "languages": {
+      ".rs": [
+        "../Boyer-Moore Majority Vote Algorithm/Rust/Boyer-Moore-Majority-Vote-Algorithm.rs"
+      ],
+      ".py": [
+        "../Boyer-Moore Majority Vote Algorithm/Python/Boyer-Moore-Majority-Vote-Algortihm.py"
+      ],
+      ".js": [
+        "../Boyer-Moore Majority Vote Algorithm/JavaScript/Boyer-Moore-Majority-Vote-Algortihm.js"
+      ],
+      ".java": [
+        "../Boyer-Moore Majority Vote Algorithm/Java/Boyer-Moore-Majority-Vote-Algortihm.java"
+      ],
+      ".go": [
+        "../Boyer-Moore Majority Vote Algorithm/Go/Boyer-Moore-Majority-Vote-Algortihm.go"
+      ],
+      ".cpp": [
+        "../Boyer-Moore Majority Vote Algorithm/C++/Boyer-Moore-Majority-Vote-Algortihm.cpp"
+      ],
+      ".c": [
+        "../Boyer-Moore Majority Vote Algorithm/C/Boyer-Moore-Majority-Vote-Algortihm.c"
+      ]
+    }
+  },
+  {
+    "name": "Breadth-First Search Algorithm",
+    "slug": "breadth-first-search-algorithm",
+    "description": "Breadth-First Search (BFS) Algorithm",
+    "languages": {
+      ".rs": [
+        "../Breadth-First Search Algorithm/Rust/Breadth_First_Search_Algorithm.rs"
+      ],
+      ".py": [
+        "../Breadth-First Search Algorithm/Python/Breadth-First-Search-Algorithm.py"
+      ],
+      ".js": [
+        "../Breadth-First Search Algorithm/JavaScript/Breadth-First-Search-Algorithm.js"
+      ],
+      ".java": [
+        "../Breadth-First Search Algorithm/Java/Breadth-First-Search-Algorithm.java"
+      ],
+      ".go": [
+        "../Breadth-First Search Algorithm/Go/Breadth-First-Search-Algorithm.go"
+      ],
+      ".cpp": [
+        "../Breadth-First Search Algorithm/C++/Breadth-First-Search-Algorithm.cpp"
+      ],
+      ".c": [
+        "../Breadth-First Search Algorithm/C/Breadth-First-Search-Algorithm.c"
+      ]
+    }
+  },
+  {
+    "name": "Bubble Sort Algorithm",
+    "slug": "bubble-sort-algorithm",
+    "description": "Bubble Sort Algorithm",
+    "languages": {
+      ".py": [
+        "../Bubble Sort Algorithm/Python/Bubble Sort(in Python).py"
+      ],
+      ".js": [
+        "../Bubble Sort Algorithm/Javascript/BubbleSort.js"
+      ],
+      ".java": [
+        "../Bubble Sort Algorithm/Java/BubbleSort.java"
+      ],
+      ".go": [
+        "../Bubble Sort Algorithm/Go/BubbleSort.go"
+      ],
+      ".cpp": [
+        "../Bubble Sort Algorithm/C++/BubbleSort.cpp",
+        "../Bubble Sort Algorithm/C++/bubbleSort_v2.cpp"
+      ],
+      ".c": [
+        "../Bubble Sort Algorithm/C/BubbleSort.c"
+      ]
+    }
+  },
+  {
+    "name": "Counting Sort Algorithm",
+    "slug": "counting-sort-algorithm",
+    "description": "Counting Sort Algorithm",
+    "languages": {
+      ".rs": [
+        "../Counting Sort Algorithm/Rust/Counting_Sort_Algorithm.rs"
+      ],
+      ".py": [
+        "../Counting Sort Algorithm/Python/Counting-Sort-Algortihm.py"
+      ],
+      ".js": [
+        "../Counting Sort Algorithm/JavaScript/Counting-Sort-Algortihm.js"
+      ],
+      ".java": [
+        "../Counting Sort Algorithm/Java/Counting-Sort-Algortihm.java"
+      ],
+      ".go": [
+        "../Counting Sort Algorithm/Go/Counting-Sort-Algortihm.go"
+      ],
+      ".cpp": [
+        "../Counting Sort Algorithm/C++/Counting-Sort-Algortihm.cpp"
+      ],
+      ".c": [
+        "../Counting Sort Algorithm/C/Counting-Sort-Algortihm.c"
+      ]
+    }
+  },
+  {
+    "name": "Depth-First Search Algorithm",
+    "slug": "depth-first-search-algorithm",
+    "description": "Depth-First Search (DFS) Algorithm",
+    "languages": {
+      ".rs": [
+        "../Depth-First Search Algorithm/Rust/Depth_Firtst_Search_Algorithm.rs"
+      ],
+      ".py": [
+        "../Depth-First Search Algorithm/Python/Depth-First-Search-Algorithm.py"
+      ],
+      ".js": [
+        "../Depth-First Search Algorithm/JavaScript/Depth-First-Search-Algorithm.js"
+      ],
+      ".java": [
+        "../Depth-First Search Algorithm/Java/Depth-First-Search-Algorithm.java"
+      ],
+      ".go": [
+        "../Depth-First Search Algorithm/Go/Depth-First-Search-Algorithm.go"
+      ],
+      ".cpp": [
+        "../Depth-First Search Algorithm/C++/Depth-First-Search-Algorithm.cpp"
+      ],
+      ".c": [
+        "../Depth-First Search Algorithm/C/Depth-First-Search-Algorithm.c"
+      ]
+    }
+  },
+  {
+    "name": "Dijkstra's Algorithm",
+    "slug": "dijkstra-s-algorithm",
+    "description": "Dijkstra's Algorithm",
+    "languages": {
+      ".rs": [
+        "../Dijkstra's Algorithm/Rust/Dijkstra's-Algorithm.rs"
+      ],
+      ".py": [
+        "../Dijkstra's Algorithm/Python/Dijkstra's-Algorithm.py"
+      ],
+      ".js": [
+        "../Dijkstra's Algorithm/JavaScript/Dijkstra's-Algorithm.js"
+      ],
+      ".java": [
+        "../Dijkstra's Algorithm/Java/Dijkstra's-Algorithm.java"
+      ],
+      ".go": [
+        "../Dijkstra's Algorithm/Go/Dijkstra's-Algorithm.go"
+      ],
+      ".cpp": [
+        "../Dijkstra's Algorithm/C++/Dijkstra's-Algorithm.cpp"
+      ],
+      ".c": [
+        "../Dijkstra's Algorithm/C/Dijkstra's-Algorithm.c",
+        "../Dijkstra's Algorithm/C/code.c"
+      ]
+    }
+  },
+  {
+    "name": "Euclid's Algorithm",
+    "slug": "euclid-s-algorithm",
+    "description": "Euclid's Algorithm",
+    "languages": {
+      ".py": [
+        "../Euclid's Algorithm/Python/Eulic's-Algorithm.py"
+      ],
+      ".js": [
+        "../Euclid's Algorithm/JavaScript/Eulic's-Algorithm.js"
+      ],
+      ".java": [
+        "../Euclid's Algorithm/Java/Eulic's-Algorithm.java"
+      ],
+      ".go": [
+        "../Euclid's Algorithm/Go/Eulic's-Algorithm.go"
+      ],
+      ".cpp": [
+        "../Euclid's Algorithm/C++/Eulic's-Algorithm.cpp"
+      ],
+      ".c": [
+        "../Euclid's Algorithm/C/Eulic's-Algorithm.c"
+      ]
+    }
+  },
+  {
+    "name": "Flood Fill Algorithm",
+    "slug": "flood-fill-algorithm",
+    "description": "Flood Fill Algorithm",
+    "languages": {
+      ".py": [
+        "../Flood Fill Algorithm/Python/Flood-Fill-Algorithm.py"
+      ],
+      ".js": [
+        "../Flood Fill Algorithm/JavaScript/Flood-Fill-Algorithm.js"
+      ],
+      ".java": [
+        "../Flood Fill Algorithm/Java/Flood-Fill-Algorithm.java"
+      ],
+      ".go": [
+        "../Flood Fill Algorithm/Go/Flood-Fill-Algorithm.go"
+      ],
+      ".cpp": [
+        "../Flood Fill Algorithm/C++/Flood-Fill-Algorithm.cpp"
+      ],
+      ".c": [
+        "../Flood Fill Algorithm/C/Flood-Fill-Algorithm.c"
+      ]
+    }
+  },
+  {
+    "name": "Floyd-Warshall Algorithm",
+    "slug": "floyd-warshall-algorithm",
+    "description": "Floyd-Warshall Algorithm",
+    "languages": {
+      ".py": [
+        "../Floyd-Warshall Algorithm/Python/Floyd-Warshall-Algorithm.py"
+      ],
+      ".js": [
+        "../Floyd-Warshall Algorithm/JavaScript/Floyd-Warshall-Algorithm.js"
+      ],
+      ".java": [
+        "../Floyd-Warshall Algorithm/Java/Floyd-Warshall-Algorithm.java"
+      ],
+      ".go": [
+        "../Floyd-Warshall Algorithm/Go/Floyd-Warshall-Algorithm.go"
+      ],
+      ".cpp": [
+        "../Floyd-Warshall Algorithm/C++/Floyd-Warshall-Algorithm.cpp"
+      ],
+      ".c": [
+        "../Floyd-Warshall Algorithm/C/Floyd-Warshall-Algorithm.c"
+      ]
+    }
+  },
+  {
+    "name": "Heap Sort Algorithm",
+    "slug": "heap-sort-algorithm",
+    "description": "Heap Sort Algorithm",
+    "languages": {
+      ".py": [
+        "../Heap Sort Algorithm/Python/Heap-Sort-Algortihm.py"
+      ],
+      ".js": [
+        "../Heap Sort Algorithm/JavaScript/Heap-Sort-Algortihm.js"
+      ],
+      ".java": [
+        "../Heap Sort Algorithm/Java/Heap-Sort-Algortihm.java"
+      ],
+      ".go": [
+        "../Heap Sort Algorithm/Go/Heap-Sort-Algortihm.go"
+      ],
+      ".cpp": [
+        "../Heap Sort Algorithm/C++/Heap-Sort-Algortihm.cpp"
+      ],
+      ".c": [
+        "../Heap Sort Algorithm/C/Heap-Sort-Algortihm.c"
+      ]
+    }
+  },
+  {
+    "name": "Insertion Sort Algorithm",
+    "slug": "insertion-sort-algorithm",
+    "description": "Insertion Sort Algorithm",
+    "languages": {
+      ".py": [
+        "../Insertion Sort Algorithm/Python/Insertion_sort.py"
+      ],
+      ".js": [
+        "../Insertion Sort Algorithm/JavaScript/InsertionSort.js"
+      ],
+      ".java": [
+        "../Insertion Sort Algorithm/Java/Insertion_sort.java"
+      ],
+      ".cpp": [
+        "../Insertion Sort Algorithm/C++/insertionSort.cpp"
+      ]
+    }
+  },
+  {
+    "name": "Kadane's Algorithm",
+    "slug": "kadane-s-algorithm",
+    "description": "Kadane's Algorithm",
+    "languages": {
+      ".cpp": [
+        "../Kadane's Algorithm/kadanes_algorithm.cpp"
+      ]
+    }
+  },
+  {
+    "name": "Kruskal's Algorithm",
+    "slug": "kruskal-s-algorithm",
+    "description": "Kruskal's Algorithm",
+    "languages": {
+      ".py": [
+        "../Kruskal's Algorithm/Python/Kruskal's Algorithm(Python).py"
+      ],
+      ".js": [
+        "../Kruskal's Algorithm/JavaScript/Kruskal's Algorithm(JavaScript).js"
+      ],
+      ".java": [
+        "../Kruskal's Algorithm/Java/kruskal.java"
+      ],
+      ".go": [
+        "../Kruskal's Algorithm/Go/Kruskal's Algorithm.go"
+      ],
+      ".cpp": [
+        "../Kruskal's Algorithm/C++/Kruskal's Algorithm(in C++).cpp"
+      ],
+      ".c": [
+        "../Kruskal's Algorithm/C/Kruskal's Algorithm(in C).c"
+      ]
+    }
+  },
+  {
+    "name": "Merge Sort Algorithm",
+    "slug": "merge-sort-algorithm",
+    "description": "Merge Sort Algorithm",
+    "languages": {
+      ".py": [
+        "../Merge Sort Algorithm/Python/merge_sort.py"
+      ],
+      ".js": [
+        "../Merge Sort Algorithm/JavaScript/MergeSort.js"
+      ],
+      ".java": [
+        "../Merge Sort Algorithm/Java/MergeSort.java",
+        "../Merge Sort Algorithm/Java/MergeSortAlgorithm.java"
+      ],
+      ".go": [
+        "../Merge Sort Algorithm/Go/merge_sort.go"
+      ],
+      ".cpp": [
+        "../Merge Sort Algorithm/C++/MergeSort.cpp",
+        "../Merge Sort Algorithm/C++/Triway_merge_sort.cpp"
+      ],
+      ".c": [
+        "../Merge Sort Algorithm/C/MergeSort.c"
+      ]
+    }
+  },
+  {
+    "name": "Palindrome Algorithm",
+    "slug": "palindrome-algorithm",
+    "description": "Palindrome Algorithm",
+    "languages": {
+      ".java": [
+        "../Palindrome Algorithm/Palindrome.java"
+      ],
+      ".cpp": [
+        "../Palindrome Algorithm/palindromeNumber.cpp"
+      ]
+    }
+  },
+  {
+    "name": "Prime Number Algorithm",
+    "slug": "prime-number-algorithm",
+    "description": "Prime Number Algorithm",
+    "languages": {
+      ".cpp": [
+        "../Prime Number Algorithm/PrimeNumberfinder.cpp"
+      ]
+    }
+  },
+  {
+    "name": "Quicksort Algorithm",
+    "slug": "quicksort-algorithm",
+    "description": "Quicksort Algorithm",
+    "languages": {
+      ".py": [
+        "../Quicksort Algorithm/Python/QuickSort.py"
+      ],
+      ".js": [
+        "../Quicksort Algorithm/JavaScript/QuickSort.js"
+      ],
+      ".java": [
+        "../Quicksort Algorithm/Java/QuickSort.java",
+        "../Quicksort Algorithm/Java/quickSort_alternative.java"
+      ],
+      ".go": [
+        "../Quicksort Algorithm/Go/quick_sort.go"
+      ],
+      ".c": [
+        "../Quicksort Algorithm/C/quick_sort.c"
+      ]
+    }
+  },
+  {
+    "name": "Selection Sort Algorithm",
+    "slug": "selection-sort-algorithm",
+    "description": "Selection Sort Algorithm",
+    "languages": {
+      ".c": [
+        "../Selection Sort Algorithm/SelectionSort.c"
+      ],
+      ".cpp": [
+        "../Selection Sort Algorithm/C++/SelectionSort_alternative.cpp",
+        "../Selection Sort Algorithm/SelectionSort.cpp"
+      ],
+      ".java": [
+        "../Selection Sort Algorithm/SelectionSort.java"
+      ],
+      ".js": [
+        "../Selection Sort Algorithm/SelectionSort.js"
+      ],
+      ".py": [
+        "../Selection Sort Algorithm/SelectionSort.py"
+      ],
+      ".go": [
+        "../Selection Sort Algorithm/selection_sort.go"
+      ]
+    }
+  },
+  {
+    "name": "Topological Sort Algorithm",
+    "slug": "topological-sort-algorithm",
+    "description": "Topological Sort Algorithm",
+    "languages": {
+      ".py": [
+        "../Topological Sort Algorithm/Python/Topo_Sort.py"
+      ],
+      ".java": [
+        "../Topological Sort Algorithm/Java/DirectedGraph.java"
+      ],
+      ".cpp": [
+        "../Topological Sort Algorithm/C++/Topo_Sort.cpp"
+      ]
+    }
+  },
+  {
+    "name": "Tree Traversal Algorithm",
+    "slug": "tree-traversal-algorithm",
+    "description": "Tree Traversal Algorithm",
+    "languages": {
+      ".java": [
+        "../Tree Traversal Algorithm/PostOrder_Traversal.java",
+        "../Tree Traversal Algorithm/PreOrder_Traversal.java"
+      ]
+    }
+  },
+  {
+    "name": "Union Find Algorithm",
+    "slug": "union-find-algorithm",
+    "description": "Union Find Algorithm",
+    "languages": {
+      ".py": [
+        "../Union Find Algorithm/Python/union_find.py"
+      ],
+      ".js": [
+        "../Union Find Algorithm/JavaScript/union_find.js"
+      ],
+      ".java": [
+        "../Union Find Algorithm/Java/union_find.java"
+      ],
+      ".go": [
+        "../Union Find Algorithm/Go/union_find.go"
+      ],
+      ".cpp": [
+        "../Union Find Algorithm/C++/UnionFindAlgoC++.cpp"
+      ],
+      ".c": [
+        "../Union Find Algorithm/C/union_find.c"
+      ]
+    }
+  }
+]

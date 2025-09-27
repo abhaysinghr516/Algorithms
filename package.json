@@ -1,0 +1,14 @@
+{
+  "name": "algorithms-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal interactive website to browse algorithm implementations across languages.",
+  "scripts": {
+    "generate": "node generate-manifest.js",
+    "serve": "node website/local-server.js",
+    "dev": "npm run generate && npm run serve"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

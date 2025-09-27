@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algorithms</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-content">
+        <div class="logo">Algorithms</div>
+        <div class="nav-stats" id="navStats">
+          <span class="stat-item">
+            <span class="stat-number" id="totalAlgorithms">0</span>
+            <span class="stat-label">algorithms</span>
+          </span>
+          <span class="stat-item">
+            <span class="stat-number">7</span>
+            <span class="stat-label">languages</span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="title-line">Algorithm</span>
+            <span class="title-line">Collection</span>
+          </h1>
+          <p class="hero-subtitle">
+            Explore clean implementations across multiple programming languages
+          </p>
+        </div>
+      </section>
+
+      <section class="search-section">
+        <div class="search-wrapper">
+          <div class="search-container">
+            <svg
+              class="search-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search algorithms..."
+              class="search-input"
+            />
+            <div class="search-results-count" id="searchCount"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="algorithms-section">
+        <div class="algorithms-container">
+          <div class="algorithms-grid" id="algorithmsGrid">
+            <!-- Algorithms will be dynamically loaded here -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="code-viewer" id="codeViewer">
+      <div class="code-viewer-header">
+        <div class="code-viewer-title">
+          <h3 id="codeViewerTitle">Select an algorithm</h3>
+          <div class="code-viewer-subtitle" id="codeViewerSubtitle"></div>
+        </div>
+        <button class="close-btn" id="closeCodeViewer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="code-viewer-content">
+        <div class="language-tabs" id="languageTabs"></div>
+        <div class="code-content">
+          <div class="code-header">
+            <button class="copy-btn" id="copyBtn">
+              <svg
+                class="copy-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+              >
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path
+                  d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                ></path>
+              </svg>
+              <span class="copy-text">Copy</span>
+            </button>
+          </div>
+          <pre id="codeDisplay"><code id="codeText"></code></pre>
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script>
+      if (window.Prism && Prism.plugins && Prism.plugins.autoloader) {
+        Prism.plugins.autoloader.languages_path =
+          "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/";
+      }
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
