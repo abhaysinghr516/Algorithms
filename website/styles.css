@@ -55,6 +55,12 @@ body {
     justify-content: space-between;
 }
 
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
 .logo {
     font-size: 18px;
     font-weight: 500;
@@ -84,6 +90,32 @@ body {
     font-size: 13px;
     color: var(--text-muted);
     font-weight: 400;
+}
+
+.github-star-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    border-radius: var(--radius);
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.15s ease;
+    border: 1px solid var(--primary);
+}
+
+.github-star-btn:hover {
+    background: var(--text);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow);
+}
+
+.star-icon {
+    width: 16px;
+    height: 16px;
 }
 
 /* Main content */
@@ -498,6 +530,38 @@ body {
     animation-delay: 0.6s;
 }
 
+/* Footer */
+.footer {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding: 32px 0;
+    margin-top: 80px;
+}
+
+.footer-content {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 32px;
+    text-align: center;
+}
+
+.footer-content p {
+    font-size: 14px;
+    color: var(--text-light);
+    margin: 0;
+}
+
+.footer-content a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.15s ease;
+}
+
+.footer-content a:hover {
+    color: var(--text);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .nav-content {
@@ -505,8 +569,21 @@ body {
         height: 64px;
     }
 
+    .nav-right {
+        gap: 16px;
+    }
+
     .nav-stats {
         gap: 20px;
+    }
+
+    .github-star-btn span {
+        display: none;
+    }
+
+    .github-star-btn {
+        padding: 8px;
+        min-width: auto;
     }
 
     .hero {
@@ -577,6 +654,10 @@ body {
 @media (max-width: 480px) {
     .nav-stats {
         display: none;
+    }
+
+    .nav-right {
+        gap: 0;
     }
 
     .nav-content {

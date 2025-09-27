@@ -9,6 +9,7 @@ const path = require('path');
 
 const REPO_ROOT = __dirname;
 const WEBSITE_DIR = path.join(REPO_ROOT, 'website');
+const ALGORITHMS_DIR = path.join(WEBSITE_DIR, 'algorithms');
 const OUTPUT_FILE = path.join(WEBSITE_DIR, 'algorithms.json');
 
 const SUPPORTED = new Set(['.js', '.c', '.cpp', '.go', '.java', '.py', '.rs']);
@@ -105,14 +106,37 @@ function toSlug(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 }
 
+function copyFileToWebsite(sourcePath, algoSlug, ext, fileName) {
+  const algoDir = path.join(ALGORITHMS_DIR, algoSlug);
+  ensureDir(algoDir);
+
+  const destPath = path.join(algoDir, fileName);
+
+  try {
+    fs.copyFileSync(sourcePath, destPath);
+    // Return relative path from website root
+    return `algorithms/${algoSlug}/${fileName}`;
+  } catch (error) {
+    console.warn(`  Warning: Could not copy ${sourcePath}:`, error.message);
+    return null;
+  }
+}
+
 function buildManifest() {
   const manifest = [];
   const algDirs = listTopLevelAlgorithmDirs(REPO_ROOT);
 
   console.log(`Found ${algDirs.length} algorithm directories:`);
 
+  // Clean and recreate algorithms directory
+  if (fs.existsSync(ALGORITHMS_DIR)) {
+    fs.rmSync(ALGORITHMS_DIR, { recursive: true, force: true });
+  }
+  ensureDir(ALGORITHMS_DIR);
+
   for (const dir of algDirs) {
     const algoName = path.basename(dir);
+    const algoSlug = toSlug(algoName);
     console.log(`Processing: ${algoName}`);
 
     const files = walkFiles(dir);
@@ -123,13 +147,14 @@ function buildManifest() {
       const ext = path.extname(f).toLowerCase();
       if (!SUPPORTED.has(ext)) continue;
 
-      // Convert path separators to forward slashes for web compatibility
-      const relFromRoot = path.relative(REPO_ROOT, f).split(path.sep).join('/');
-      const relFromWebsite = '../' + relFromRoot;
+      const fileName = path.basename(f);
+      const webPath = copyFileToWebsite(f, algoSlug, ext, fileName);
 
-      byExt[ext] = byExt[ext] || [];
-      byExt[ext].push(relFromWebsite);
-      fileCount++;
+      if (webPath) {
+        byExt[ext] = byExt[ext] || [];
+        byExt[ext].push(webPath);
+        fileCount++;
+      }
     }
 
     // Only include if there is at least one supported file
@@ -169,7 +194,7 @@ function buildManifest() {
 
     manifest.push({
       name: algoName,
-      slug: toSlug(algoName),
+      slug: algoSlug,
       description,
       languages: byExt
     });
@@ -179,6 +204,7 @@ function buildManifest() {
   manifest.sort((a, b) => a.name.localeCompare(b.name));
 
   console.log(`\nGenerated manifest with ${manifest.length} algorithms`);
+  console.log(`📁 Algorithm files copied to: ${path.relative(REPO_ROOT, ALGORITHMS_DIR)}`);
   return manifest;
 }
 
