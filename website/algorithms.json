@@ -424,6 +424,9 @@
     "languages": {
       ".cpp": [
         "algorithms/prime-number-algorithm/PrimeNumberfinder.cpp"
+      ], 
+      ".java": [
+        "algorithms/prime-number-algorithm/PrimeInputCheck.java"
       ]
     }
   },
