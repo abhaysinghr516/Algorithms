@@ -1,35 +1,87 @@
-# Contribution Guidelines
-Thank you for your interest in contributing to the Algorithms Collection repository! We appreciate your help in improving and expanding the collection of algorithms. Please follow the guidelines below to ensure a smooth contribution process.
+#  Contribution Guidelines
 
-## How to Contribute
-1. Fork the repository.
+🚀 Welcome! Whether you're fixing a bug, adding a new algorithm, or improving documentation, we're thrilled to have you here. This guide will walk you through the steps to make your contribution smooth and successful.
 
-3. Create a new branch for your changes.
+---
 
-5. Implement the algorithm in the desired programming language(s). Make sure to follow the coding style conventions of the specific language and include comments to explain your code.
+## 🛠️ How to Contribute
 
-7. Add a README.md file in the folder of the specific algorithm you are implementing. The README should contain the following information:
+1. **Fork the Repository**  
+   Create a personal copy of the project by clicking the "Fork" button on GitHub.
 
-- Algorithm name
-- Brief description of the algorithm
-- Time complexity
-- Space complexity
-- Example use case
-- Code snippet (optional)
-5. Test your code thoroughly to ensure it is working correctly.
+2. **Create a New Branch**  
+   Use a descriptive name for your branch, like `feat/add-radix-sort-python`.
 
-6. Commit your changes and push them to your forked repository.
+3. **Add Your Algorithm**  
+   - Create a new folder inside the `algorithms/` directory. Use the folder name (e.g., `radix-sort-algorithm`).
+   - Add your source code file(s) and a `README.md` explaining the algorithm.
+   - Follow the existing coding style and naming conventions for your language.
+   - Include clear comments to explain complex logic.
 
-7. Create a pull request, providing a detailed description of the changes you've made.
+4. **Update `algorithm.json`**  
+   This step ensures your algorithm is indexed and visible.
 
-8. Wait for a maintainer to review your pull request. They may suggest changes or ask for clarification on certain aspects. Please be patient and address any feedback provided.
+   - Open the `algorithm.json` file in the root directory.
+   - If you're adding a new algorithm, create a new object in the array.
+   - Add the relative path to your file under the correct language key.
 
-## Code of Conduct
-Please adhere to the following code of conduct while contributing to this repository:
+   **Example: Adding a C# implementation for Bubble Sort**
 
-- Be respectful and considerate towards other contributors.
-- Use appropriate language and avoid offensive comments.
-- Keep the discussions focused on the topic at hand.
-- Be open to constructive criticism and be willing to learn from others.
+   ```json
+   {
+     "name": "Bubble Sort Algorithm",
+     "slug": "bubble-sort-algorithm",
+     "description": "Bubble Sort Algorithm",
+     "languages": {
+       ".py": [
+         "algorithms/bubble-sort-algorithm/BubbleSort.py"
+       ],
+       ".js": [
+         "algorithms/bubble-sort-algorithm/BubbleSort.js"
+       ],
+       ".java": [
+         "algorithms/bubble-sort-algorithm/BubbleSort.java"
+       ],
+       ".cs": [
+         "algorithms/bubble-sort-algorithm/BubbleSort.cs"
+       ]
+     }
+   }
+   ```
 
-By following these guidelines, we can maintain a welcoming and productive environment for all contributors. Thank you for your cooperation!
+   ⚠️ **Important:** Be careful not to break the JSON format—check commas, brackets, and indentation.
+
+5. **Test Your Code**  
+   Make sure your implementation works correctly and handles edge cases.
+
+6. **Commit and Push**  
+   Use a clear, descriptive commit message. Example: `Add radix sort implementation in Python`.
+
+7. **Create a Pull Request**  
+   Open a PR from your branch to the main repository. Include a detailed description of your changes.
+
+8. **Code Review**  
+   A maintainer will review your PR. Be open to feedback and make necessary adjustments.
+
+---
+
+## ✅ Contribution Checklist
+
+- [ ] Fork the repository
+- [ ] Create a new branch
+- [ ] Add your algorithm folder and files
+- [ ] Update `algorithm.json`
+- [ ] Test your code
+- [ ] Commit and push changes
+- [ ] Create a pull request
+
+---
+
+## 🤝 Code of Conduct
+
+To keep our community welcoming and productive:
+
+- Be respectful and considerate to others.
+- Use appropriate language—no offensive or discriminatory remarks.
+- Keep discussions focused and constructive.
+- Embrace feedback and be open to learning.
