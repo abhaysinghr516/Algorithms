@@ -349,6 +349,15 @@
     "languages": {
       ".cpp": [
         "algorithms/kadane-s-algorithm/kadanes_algorithm.cpp"
+      ],
+      ".py": [
+        "algorithms/kadane-s-algorithm/Kadanes-Algorithm.py"
+      ],
+      ".js": [
+        "algorithms/kadane-s-algorithm/Kadanes-Algorithm.js"
+      ],
+      ".c": [
+        "algorithms/kadane-s-algorithm/Kadanes-Algorithm.c"
       ]
     }
   },
@@ -500,6 +509,12 @@
       ".java": [
         "algorithms/tree-traversal-algorithm/PostOrder_Traversal.java",
         "algorithms/tree-traversal-algorithm/PreOrder_Traversal.java"
+      ],
+      ".rs": [
+        "algorithms/tree-traversal-algorithm/Tree-Traversal-Algorithm.rs"
+      ],
+      ".go": [
+        "algorithms/tree-traversal-algorithm/Tree-Traversal-Algorithm.go"
       ]
     }
   },
