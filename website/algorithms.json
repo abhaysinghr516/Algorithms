@@ -478,6 +478,9 @@
     "slug": "prime-number-algorithm",
     "description": "Prime Number Algorithm",
     "languages": {
+      ".py": [
+        "algorithms/prime-number-algorithm/is_prime.py"
+      ],
       ".java": [
         "algorithms/prime-number-algorithm/PrimeInputCheck.java"
       ],
