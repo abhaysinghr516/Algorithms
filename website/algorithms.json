@@ -562,6 +562,22 @@
     }
   },
   {
+    "name": "Sieve of Eratosthenes Algorithm",
+    "slug": "sieve-of-eratosthenes-algorithm",
+    "description": "Sieve of Eratosthenes Algorithm",
+    "languages": {
+      ".py": [
+        "algorithms/sieve-of-eratosthenes-algorithm/sieve_of_eratosthense.py"
+      ],
+      ".java": [
+        "algorithms/sieve-of-eratosthenes-algorithm/sieve_of_eratosthenes.java"
+      ],
+      ".cpp": [
+        "algorithms/sieve-of-eratosthenes-algorithm/sieve_of_eratosthenese.cpp"
+      ]
+    }
+  },
+  {
     "name": "Topological Sort Algorithm",
     "slug": "topological-sort-algorithm",
     "description": "Topological Sort Algorithm",
