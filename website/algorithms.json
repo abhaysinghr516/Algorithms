@@ -324,6 +324,28 @@
     }
   },
   {
+    "name": "Huffman Coding Compression Algorithm",
+    "slug": "huffman-coding-compression-algorithm",
+    "description": "Huffman Coding Compression Algorithm",
+    "languages": {
+      ".rs": [
+        "algorithms/huffman-coding-compression-algorithm/Huffman-Coding-Algorithm.rs"
+      ],
+      ".py": [
+        "algorithms/huffman-coding-compression-algorithm/Huffman-Coding-Algorithm.py"
+      ],
+      ".java": [
+        "algorithms/huffman-coding-compression-algorithm/Huffman-Coding-Algorithm.java"
+      ],
+      ".cpp": [
+        "algorithms/huffman-coding-compression-algorithm/Huffman-Coding-Algorithm.cpp"
+      ],
+      ".c": [
+        "algorithms/huffman-coding-compression-algorithm/huffman-coding-algorithm.c"
+      ]
+    }
+  },
+  {
     "name": "Insertion Sort Algorithm",
     "slug": "insertion-sort-algorithm",
     "description": "Insertion Sort Algorithm",
@@ -339,6 +361,9 @@
       ],
       ".cpp": [
         "algorithms/insertion-sort-algorithm/insertionSort.cpp"
+      ],
+      ".c": [
+        "algorithms/insertion-sort-algorithm/insertion_sort.c"
       ]
     }
   },
@@ -349,6 +374,34 @@
     "languages": {
       ".cpp": [
         "algorithms/kadane-s-algorithm/kadanes_algorithm.cpp"
+      ],
+      ".rs": [
+        "algorithms/kadane-s-algorithm/Kadanes-Algorithm.rs"
+      ],
+      ".py": [
+        "algorithms/kadane-s-algorithm/Kadanes-Algorithm.py"
+      ],
+      ".js": [
+        "algorithms/kadane-s-algorithm/Kadanes-Algorithm.js"
+      ],
+      ".go": [
+        "algorithms/kadane-s-algorithm/Kadanes-Algorithm.go"
+      ],
+      ".c": [
+        "algorithms/kadane-s-algorithm/Kadanes-Algorithm.c"
+      ]
+    }
+  },
+  {
+    "name": "KMP Algorithm",
+    "slug": "kmp-algorithm",
+    "description": "KMP Algorithm",
+    "languages": {
+      ".py": [
+        "algorithms/kmp-algorithm/kmp_algo.py"
+      ],
+      ".java": [
+        "algorithms/kmp-algorithm/kmp_algo.java"
       ]
     }
   },
@@ -409,6 +462,9 @@
     "slug": "palindrome-algorithm",
     "description": "Palindrome Algorithm",
     "languages": {
+      ".py": [
+        "algorithms/palindrome-algorithm/check_paindrome.py"
+      ],
       ".java": [
         "algorithms/palindrome-algorithm/Palindrome.java"
       ],
@@ -422,11 +478,11 @@
     "slug": "prime-number-algorithm",
     "description": "Prime Number Algorithm",
     "languages": {
-      ".cpp": [
-        "algorithms/prime-number-algorithm/PrimeNumberfinder.cpp"
-      ], 
       ".java": [
         "algorithms/prime-number-algorithm/PrimeInputCheck.java"
+      ],
+      ".cpp": [
+        "algorithms/prime-number-algorithm/PrimeNumberfinder.cpp"
       ]
     }
   },
@@ -450,6 +506,29 @@
       ],
       ".c": [
         "algorithms/quicksort-algorithm/quick_sort.c"
+      ]
+    }
+  },
+  {
+    "name": "Radix Sort Algorithm",
+    "slug": "radix-sort-algorithm",
+    "description": "Radix Sort Algorithm",
+    "languages": {
+      ".py": [
+        "algorithms/radix-sort-algorithm/RadixSort.py"
+      ],
+      ".cpp": [
+        "algorithms/radix-sort-algorithm/Radix-Sort-Algorithm.cpp"
+      ]
+    }
+  },
+  {
+    "name": "Radix-Sort Algorithm",
+    "slug": "radix-sort-algorithm",
+    "description": "Radix-Sort Algorithm",
+    "languages": {
+      ".java": [
+        "algorithms/radix-sort-algorithm/solution.java"
       ]
     }
   },
@@ -503,6 +582,21 @@
       ".java": [
         "algorithms/tree-traversal-algorithm/PostOrder_Traversal.java",
         "algorithms/tree-traversal-algorithm/PreOrder_Traversal.java"
+      ],
+      ".rs": [
+        "algorithms/tree-traversal-algorithm/Tree-Traversal-Algorithm.rs"
+      ],
+      ".py": [
+        "algorithms/tree-traversal-algorithm/Tree-Traversal-Algorithm.py"
+      ],
+      ".js": [
+        "algorithms/tree-traversal-algorithm/Tree-Traversal-Algorithm.js"
+      ],
+      ".go": [
+        "algorithms/tree-traversal-algorithm/Tree-Traversal-Algorithm.go"
+      ],
+      ".c": [
+        "algorithms/tree-traversal-algorithm/Tree-Traversal-Algorithm.c"
       ]
     }
   },
